@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MentorLink: Linking Paths, Creating the Future</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="footer-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Mulish:ital@1&family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Mulish:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Lilita+One&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <header>
+      <!-- navbar start point -->
+      <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="font-family: 'Monoton', cursive; font-size: 2em; color: #203264; font-weight: 700;" href="http://127.0.0.1:5500/mentorlink.html#">Mentorlink</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/mentorlink.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Find a Mentor
+                </a>
+                <div class="nav-item dropdown d-flex flex-row align-items-center justify-content-evenly">
+                  <div class="container d-flex flex-column">
+                    <ul class="dropdown-menu text-dark">
+                      <li><a class="dropdown-item" href="#">Product Managers</a></li>
+                      <li><a class="dropdown-item" href="#">Programming Mentor</a></li>
+                      <li><a class="dropdown-item" href="#">Data Science Experts</a></li>
+                      <li><a class="dropdown-item" href="#">StartUp Mentors</a></li>
+                      <li><a class="dropdown-item" href="#">Marketing Experts</a></li>
+                      <li><a class="dropdown-item" href="#">Technician Experts</a></li>
+                      <li><a class="dropdown-item" href="#">Hardware Mentors</a></li>
+                      <li><a class="dropdown-item" href="#">Business Experts</a></li>
+                      <li><a class="dropdown-item" href="#">Cyber Security Experts</a></li>
+                      <li><a class="dropdown-item" href="#">AWS Mentors</a></li>
+                      <li><a class="dropdown-item" href="#">Career Growth Mentor</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li style="font-size: larger;"><a class="dropdown-item" href="#">See More......</a></li>
+                    </ul>
+                  </div>
+                  <div class="container d-flex flex-column"><ul class="dropdown-menu text-dark">
+                  <li><a class="dropdown-item" href="#">Product Managers</a></li>
+                  <li><a class="dropdown-item" href="#">Programming Mentor</a></li>
+                  <li><a class="dropdown-item" href="#">Data Science Experts</a></li>
+                  <li><a class="dropdown-item" href="#">StartUp Mentors</a></li>
+                  <li><a class="dropdown-item" href="#">Marketing Experts</a></li>
+                  <li><a class="dropdown-item" href="#">Technician Experts</a></li>
+                  <li><a class="dropdown-item" href="#">Hardware Mentors</a></li>
+                  <li><a class="dropdown-item" href="#">Business Experts</a></li>
+                  <li><a class="dropdown-item" href="#">Cyber Security Experts</a></li>
+                  <li><a class="dropdown-item" href="#">AWS Mentors</a></li>
+                  <li><a class="dropdown-item" href="#">Career Growth Mentor</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li style="font-size: larger;"><a class="dropdown-item" href="#">See More......</a></li>
+                </ul></div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Free Courses & Bootcamps
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.coursera.org" target="_blank">Coursera</a></li>
+                  <li><a class="dropdown-item" href="https://www.udemy.com" target="_blank">Udemy</a></li>
+                  <li><a class="dropdown-item" href="https://www.mygreatlearning.com/" target="_blank">Great Learning</a></li>
+                  <li><a class="dropdown-item" href="https://alison.com" target="_blank">Alison</a></li>
+                  <li><a class="dropdown-item" href="https://www.khanacademy.org" target="_blank">Khan Academy</a></li>
+                  <li><a class="dropdown-item" href="https://www.classcentral.com/" target="_blank">Class Central</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="https://heypi.com/talk" target="_blank">Get PI</a><!--AI page -->
+              </li>
+            </ul>
+            <form class="d-flex mx-1" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+             <button type="button" class="btn btn-dark mx-1 btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button> <!-- login button -->
+            <button type="button" class="btn btn-dark mx-1 btn-sm" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button><!-- Sign up button -->
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ending point -->
+    </header><!--header end here-->
+    <!-- modal for login and sign up -->
+    <!-- session modal details -->
+    <!-- Button trigger modal -->
+<!-- book a session -->
+<!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade bg-dark" id="sessionModal" tabindex="-1" aria-labelledby="sessionModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header d-flex flex-column">
+        <h1 class="modal-title fs-5" id="sessionModalLabel">Fill up Details</h1>
+        <div class="para2">"Book your session today and start your journey to success."</div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-floating mx-3 d-flex flex-row">
+          <div class="form-floating mx-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">First Name</label>
+          </div>
+          <div class="form-floating mx-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Last Name</label>
+          </div>
+
+        </div>
+        <div class="form-floating my-3">
+          <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">E-mail ID</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Phone no.</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Oragnization</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Job Title</label>
+        </div>
+        <div class="para mx-2">Information you have provide when register wiil be shared with the account owner and host and can be used and ashared by the them in accordance with their terms and privacy policy</div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Accepted Terms and Condition
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade bg-dark" id="demoModal" tabindex="-1" aria-labelledby="demoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header d-flex flex-column">
+        <h1 class="modal-title fs-5" id="sessionModalLabel">Fill up Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-floating mx-3 d-flex flex-row">
+          <div class="form-floating mx-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">First Name</label>
+          </div>
+          <div class="form-floating mx-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Last Name</label>
+          </div>
+
+        </div>
+        <div class="form-floating my-3">
+          <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">E-mail ID</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="number" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Phone no.</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Oragnization</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Job Title</label>
+        </div>
+        <div class="para mx-2">Information you have provide when register wiil be shared with the account owner and host and can be used and ashared by the them in accordance with their terms and privacy policy</div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Accepted Terms and Condition
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Login Modal -->
+<div class="modal fade bg-dark" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="login">Login to Mentorlink</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-floating mx-3 d-flex flex-row">
+          <div class="form-floating mx-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">First Name</label>
+          </div>
+          <div class="form-floating mx-3">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Last Name</label>
+          </div>
+
+        </div>
+        <div class="form-floating my-3">
+          <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">E-mail ID</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating my-3">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword"> Confirm Password</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Accepted Terms and Condition
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+       
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Sign up Modal -->
+<div class="modal fade bg-dark" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="signupModalLabel">Sign-In</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">E-mail ID</label>
+        </div>
+        <div class="form-floating mb-3 my-3">
+          <input type="password" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Password</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+          <label class="form-check-label" for="flexCheckChecked">
+            Remember Me
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer  translate-x(-50%) translate-y(-100%)">
+              <button type="button" class="btn btn-primary">Sign-In</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- website body start -->
+ <!-- chatbot icon -->
+ <!-- <div class="chat-bot"><img src="images/chatbot images.png" alt="" width="136px"></div> -->
+    <main>
+      <!-- upper body text animation -->
+      <div class="box-start" style="">
+        <p class="text-md-center text-wrap text-light" style="font-family: 'Poppins', sans-serif;translate: 0em -1.3em;">Develop a New Skill, Launch a Project, Land Your Dream Career</p>
+        <p class="text-center text-uppercase text-wrap  text-light" style="font-size: 5em; font-family: 'Roboto Condensed', sans-serif; translate: 0em -0.5em;">1-on-1 <span class="text" style="color: blue;">Growth</span></p>
+        <p class="text-center text-uppercase text-wrap text-light" style="font-size: 4.5em; font-family:'Roboto Condensed', sans-serif; translate: 0em -1em;">MentorShip</p>
+        <div class="svg-image1"><img src="images/ai theme.png" alt="" width="112px"></div>
+        <div class="svg-image2"><img src="images/ai theme2.png" alt="" width="156px"></div>
+        <div class="svg-image3"><img src="images/ai theme3.png" alt="" width="96px"></div>
+      </div>
+      <!--AI link page start starts-->
+      
+    <!-- flexbox four item -->
+    <div class="box d-flex flex-row justify-content-center align-items-center my-1" style="translate: 0em 1em; margin: 0em 1em;" >
+      <div class="container d-flex flex-column">
+        <span class="images">
+          <img src="images/join image.png" alt="">
+        </span>
+        <span class="join text-center" style="translate: 0em -1em;">
+          <h3>Join</h3>
+        </span>
+        <span class="para1 text-center" style="translate: 0em -1em;">
+         <p>Set up a Profile on Mentorlink to share who you are and show mentor what you can help them with.</p>
+        </span>
+      </div>
+      <div class="container d-flex flex-column">
+        <span class="images1">
+          <img src="images/explore image.png" alt="">
+        </span>
+        <span class="explore text-center" style="margin-top: 1em;">
+          <h3>Explore</h3>
+        </span>
+        <span class="para2 text-center">
+         <p>Read through profiles of Experts & Professionals Mentor to discover who you're the best suited to help.</p>
+        </span>
+      </div>
+      <div class="container d-flex flex-column">
+        <span class="images2">
+          <img src="images/connect images.png" alt="">
+        </span>
+        <span class="Connect text-center">
+          <h3>Connect</h3>
+        </span>
+        <span class="para3 text-center">
+         <p>Reach out to Mentor through Vedio call.Star a conversation by sending them a message.See if you're the right fit to start mentoring</p>
+        </span>
+      </div>
+      <div class="container d-flex flex-column">
+        <span class="images3">
+          <img src="images/grow images.png" alt="">
+        </span>
+        <span class="grow text-center">
+          <h3>Grow</h3>
+        </span>
+        <span class="para4 text-center">
+         <p>Now you're found an mentor.Ask question.Share.Listen.Build your relationship and help them grow their career.</p>
+        </span>
+      </div>
+    </div>
+    <!-- join the community -->
+    <div class="community text-center text-light d-flex flex-column bg-dark" style="height: 35vh; position: relative;">
+      <div class="join" style="font-size: 6em; font-family:'Poppins', sans-serif;">Join Our <span class="community-change">Community</span></div>
+      <div class="join-para">Come join this amazing group of supportive,possitive,smart, and emoji-friendly products folks from all around the world,who are experts in their fields. </div>
+       <div class="friends"><img src="images/friends.svg" alt="" width="150px"></div>
+       <div class="uncle"><img src="images/uncle.svg" alt="" width="100px"></div>
+    </div>
+    <!-- ai landing theme section -->
+    <!-- two things in the row -->
+    <div class="box d-flex flex-row justify-content-evenly align-items-center px-5">
+      <div class="container d-flex flex-column">
+        <span class="box1">
+          <p> #1 Easiest way to use Mentoring Software</p>
+        </span>
+        <span class="box2">
+         <p> Accelerate Growth through our AI enhanced Mentoring</p>
+        </span>
+        <span class="box3">MentorLink Software is a mentorship paltform that empowers your organization to drive performance through realtionships.</span>
+        <span class="box4 mx-2">
+          <span class="button1">
+          <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#sessionModal" type="submit" style="width: 13vw; font-size: small;">Book a Session</button>
+          </span>
+          <span class="button2">
+            <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#demoModal" type="submit" style="width: 13vw; font-size: small;">Book a demo</button>
+          </span>
+        </span>
+      </div>
+      <div class="container mx-1 my-1">
+        <video src="images/What is Together Mentorship Platform Explainer video.mp4" controls loop height="400px" width="550px"></video>
+      </div>
+    </div>
+    <!-- AI landing pages -->
+    <div class="AI-page d-flex flex-row justify-content-evenly align-items-center" style="background: linear-gradient(90deg,#137feb,#3f78b0,#5e39bd,#8534bf);">
+      <div class="ai-text d-flex flex-column text-center">
+        <div class="empowering text-light">Empowering Your Potential</div>
+        <div class="your-ai text-light">Your Personal AI</div>
+        <div class="pi">PI</div>
+        <div class="imag"><img src="images/pi image logo.png" alt="" width="110px"></div>
+        <div class="ai-slogan text-light">"Unleash Your Productivity, Enhance Your Creativity, and Experience personalized Assistance with AI at your Fingertips!"</div>
+      </div>
+      <div class="ai-image">
+       <img src="images/ai home page.png" alt="" width="600px" height="590px">
+       <div class="button" style="translate: -28em -5em;"><a href="https://heypi.com/talk" target="_blank"><button class="btn btn-warning btn-center" style="font-stretch: extra-expanded; width: 10vw; font-size: medium;">Try PI</button></a></div>
+      </div>
+    </div>
+    <hr style="height: 3px;">
+    <div class="text-let text-center" style="font-size: 7em;  font-size:'Poppins', sans-serif; font-weight: bold; translate: 0em -0.1em;"><p>Let's <span class="text-ani">Build</span> the Future</p></div><hr style="height:3px;">
+    <!-- six support -->
+    <div class="six-support d-flex flex-column justify-content-evenly align-items-center mx-2 my-3" style="background-color:white">
+      <div class="container text-center " style="font-size: 3.5em; font-weight: bold; font-family: 'Poppins', sans-serif; color: #203264;">Our Workshop and Events</div>
+      <div class="six-support-row d-flex flex-row justify-content-evenly ">
+          <div class="live-webinar d-flex flex-column">
+            <span class="images"><img src="images/live webinar.png" alt="" width="450px" style="translate: -3.5em 0em;"></span>
+            <span class="live-webinars"><h4>live Webinars</h4></span>
+            <span class="score-para"><p>MentorLink Host free,Live webinars on guidance,support,career pathways,tips and strategies.See the list of upcoming webinars</p></span>
+          </div>
+          <div class="local-workshop d-flex flex-column">
+            <span class="images"><img src="images/local workshop.jpg" alt="" width="450px" style="translate: 1em 0em;"></span>
+            <span class="local-Workshop"><h4>local Workshop</h4></span>
+            <span class="find-para"><p>Find low or no-cost business & career training in your community to help start and grow. </p></span>
+          </div>
+      </div> 
+      <div class="six-support-row d-flex flex-row ">
+          <div class="live-webinar d-flex flex-column">
+            <span class="images"><img src="images/online courses.png" alt="" width="450px" style="translate: -2.8em 0em;"></span>
+            <span class="online-course"><h4>Online Courses</h4></span>
+            <span class="Online-para"><p>MentorLink on-demand courses allow to you learn about various small topics at your own pace.</p></span>
+          </div>
+          <div class="local-workshop d-flex flex-column">
+            <span class="images"><img src="images/ai learning.png" alt="" width="470px" style="translate: 1em 0em;"></span>
+            <span class="AI-support"><h4>AI Support</h4></span>
+            <span class="AI-para"><p>MentorLInk AI support help you to learn and guide in your personalized way. </p></span>
+          </div>
+      </div>
+      <div class="six-support-row d-flex flex-row ">
+          <div class="live-webinar d-flex flex-column">
+            <span class="images"><img src="images/weeky test.jpeg" alt="" width="450px" height="250px" style="translate: -3.5em 0em;"></span>
+            <span class="weekly-test"><h4>Weekly Test</h4></span>
+            <span class="weekly-para"><p>Our weekly test check the performance of the mentee and provide the feedback to target area of improvement. </p></span>
+          </div>
+          <div class="local-workshop d-flex flex-column">
+            <span class="images"><img src="images/adaptive learning.jpg" alt="" width="470px" height="250px" style="translate: 1em 0em;"></span>
+            <span class="New-learn"><h4>Adaptive learning</h4></span>
+            <span class="New-learn-para"><p>MentorLink use the latest and new way of learning.Make the personalized learning way which adapts to everyone. </p></span>
+          </div>
+      </div> 
+      <div class="button d-flex flex-row align-items-center justify-content-evenly">
+      <button class="btn btn-primary btn-lg  mx-4 my-2" type="submit" style="font-size: small;" data-bs-toggle="modal" data-bs-target="#loginModal" >Register Now</button>
+      <button class="btn btn-primary btn-lg mx-4" type="submit" style="font-size: small;"  >Book A Session</button>
+      </div> 
+    </div>
+   <div class="box-end" style="width: 100vw; height: 80vh; background-color: rgb(72, 190, 230); position: relative;">
+     <div class="inner-box " style="width:95vw ; height: 70vh; background-color: rgb(0, 0, 0);margin: auto; translate: 0em 1.9em; background-image: url(images/become\ a\ member.png); background-repeat: no-repeat;background-size: contain;">
+      <h3 class="text-center  text-light" style="translate: 0em 5em;">Build Your Dream  Team of Mentor </h3>
+      <p class="text-center text-light" style="translate: 0em 9em;">Build your through our AI assitant Mnetors</p>
+      <button class="btn btn-primary btn-lg" type="submit" style="translate: 29em 8em;">Become A Mentor</button>
+    </div>
+   </div>
+   <div class="social d-flex flex-column bg-dark">
+      <div class="join-social text-center text-light" style="font-size: 4em; font-family: 'Poppins', sans-serif; font-weight: bold;" >Join us on Social </div>
+      <div class="social-icon d-flex flex-row align-items-center justify-content-evenly">
+        <ul>
+          <li><a href=""><img src="images/instagram color icon.png" alt="" width="66px"></a></li>
+          <li><a href=""><img src="images/twitter color icon.png" alt="" width="46px"></a></li>
+          <li><a href=""><img src="images/facebook.png" alt="" width="46px"></a></li>
+          <li><a href=""><img src="images/discord.png" alt="" width="46px"></a></li>
+        </ul>
+      </div>
+      <div class="svg-add">
+       <img src="images/" alt="">
+      </div>
+   </div>
+    </main>
+<!-- website body end   -->
+    <footer>
+      <div class="upper-footer">
+        <div class="uf-1">
+          <div class="f-logo" style="font-family: 'Monoton', cursive; font-size: 2.5em; color: #203264; font-weight: 700;">
+            <p>Mentorlink</p>
+          </div>
+          <div class="f-para">
+            Our Trusted source to find highly-vetted mentors & industry
+            professionals to move carrer ahead.
+          </div>
+          <div class="f-social-icon">
+            <ul>
+              <li>
+                <a href=""
+                  ><img
+                    src="images/facebook_icon.png"
+                    alt="facebook_icon"
+                    width="40px"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ak.abhayy/"
+                  ><img
+                    src="images/instagram_social_icon.png"
+                    alt="instagram_social_icon "
+                    width="50px"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img
+                    src="images/twitter_icon.png"
+                    alt="twitter_icon "
+                    width="40px"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="uf-2">
+          <ul>
+            <li id="plat">Platform</li>
+            <li>Browse mentors</li>
+            <li>Book a Session</li>
+            <li>Become a Mentor</li>
+            <li>Mentorship for Teams</li>
+            <li>Testimonials</li>
+          </ul>
+        </div>
+        <div class="uf-3">
+          <ul>
+            <li id="reso">Resource</li>
+            <li>Coaches</li>
+            <li>Newsletter</li>
+            <li>Podcast</li>
+            <li>Tutors</li>
+            <li>Blog</li>
+            <li>Carrerpath</li>
+            <li>Case Studies</li>
+            <li>Mentor Group</li>
+            <li>Companies</li>
+            <li>Video Libraries</li>
+          </ul>
+        </div>
+        <div class="uf-4">
+          <ul>
+            <li id="carrer">Carrer Growth</li>
+            <li>Software Devlopment</li>
+            <li>UX/UI Design</li>
+            <li>web Development</li>
+            <li>Mobile Development</li>
+            <li>Computer Hardware Technician</li>
+            <li>Networking Engineer</li>
+            <li>Market Research Analyst</li>
+            <li>Financial Analysis</li>
+            <li>Data Analyst</li>
+            <li>Electrician</li>
+          </ul>
+        </div>
+        <div class="uf-5">
+          <ul>
+            <li id="company">Company</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Privacy Policies</li>
+            <li>Terms of use</li>
+          </ul>
+        </div>
+      </div>
+      <div class="lower-footer">
+        <h5>
+          &#169; 2023 <a href="" id="ment">Mentorlink</a>. All Rights Reserved.
+        </h5>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+    
+  </body>
+</html>
